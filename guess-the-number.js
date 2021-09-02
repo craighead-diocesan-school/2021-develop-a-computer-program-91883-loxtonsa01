@@ -1,6 +1,6 @@
 // Your code goes in this file.
 
-//make and array
+//An array to hold the users inputs
 let playerInfo = [
 
 ]
@@ -10,4 +10,9 @@ let playerName = prompt('Create a username.')
 //putting the input into the array
 playerInfo.push(playerName)
 
-alert(playerInfo)
+alert('welcome to the game ' + playerInfo)
+
+//Getting a random number
+const randomNum = Math.floor(Math.random() * (20 - 1 + 1)) + 1;
+alert(randomNum)
+
