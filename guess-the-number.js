@@ -29,6 +29,11 @@ while (counter <= 4) {
         if (guess == randomNum) {
             //the number the user guessed is correct
             alert('CORRECT')
+            //adding the number 4 so the counter stops, inturn finishing the game
+            counter += counter + 4
+            //asking the uaer if they want to play again
+            let rerun = prompt('do you want to play again, ' + playerName + '?')
+
         } else {
             //the counter goes up by one at every wrong answer
             counter += counter + 1
