@@ -20,7 +20,7 @@ alert(randomNum)
 let counter = 0
 
 //while the number of the guesses the user inputs does not equal 3 the loop will continue
-while (counter != 3) {
+while (counter <= 4) {
     //user guesses the number
     let guess = prompt('pick a number between 1 and 20 inclusive.')
     //if the users input is a number it will continue into the next if statement
@@ -30,7 +30,7 @@ while (counter != 3) {
             //the number the user guessed is correct
             alert('CORRECT')
         } else {
-
+            //the counter goes up by one at every wrong answer
             counter += counter + 1
         }
 
