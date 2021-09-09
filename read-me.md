@@ -6,8 +6,8 @@ The User Imput component lets the user enter the customers name.
  * "Kelly" -Passed
 
 ## Boundary:
-* "G" -Passed
-* "^&*()_" -Failed
+ * "G" -Passed
+ * "^&*()_" -Failed
 
 ## Invalid:
  * " " -Failed
@@ -27,3 +27,20 @@ The code make a secret number before alerting the given number.
 1. "8" -Passed
 1. "12" -Passed
 1. "19" -Passed
+
+<br>
+<br>
+
+ # User number input checker
+
+ ## Expected:
+  * Numbers "1" - "20"
+
+ ## Boundary:
+  * "1" -Passed
+  * "20" -Passed
+
+ ## Invalid:
+  * "-1" -Failed
+  * "the" -Passed
+  * "21" -Failed
