@@ -11,3 +11,19 @@ The User Imput component lets the user enter the customers name.
 
 ## Invalid:
  * " " -Failed
+
+<br>
+<br>
+
+# Number Generator
+The code make a secret number before alerting the given number.
+
+## Expected:
+ * Numbers "1" - "20"
+
+## Tested:
+1. "15" -Passed
+1. "9" -Passed
+1. "8" -Passed
+1. "12" -Passed
+1. "19" -Passed
