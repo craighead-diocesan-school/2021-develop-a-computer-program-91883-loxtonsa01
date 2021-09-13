@@ -7,10 +7,10 @@ The User Imput component lets the user enter the customers name.
 
 ## Boundary:
  * "G" -Passed
- * "^&*()_" -Failed
 
 ## Invalid:
  * " " -Failed
+ * "^&*()_" -Failed
 
 <br>
 <br>
@@ -42,5 +42,5 @@ The code make a secret number before alerting the given number.
 
  ## Invalid:
   * "-1" -Failed
-  * "the" -Passed
+  * "the" -Failed
   * "21" -Failed
