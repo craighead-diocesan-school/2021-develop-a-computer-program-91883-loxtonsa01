@@ -1,18 +1,17 @@
 // Your code goes in this file.
 
 //function to hold the players input (name)
-    //function playerNameHolder() {
-    //An array to hold the users inputs
-    let playerInfo = []
+//function playerNameHolder() {
+//An array to hold the users inputs
+let playerInfo = []
 
-    //taking the users input
-    let playerName = prompt('Create a username.')
-    //putting the input into the array
-    playerInfo.push(playerName)
-    //welcomes the user to the game using their username
-    alert('welcome to the game ' + playerInfo)
+//taking the users input
+let playerName = prompt('Create a username.')
+//putting the input into the array
+playerInfo.push(playerName)
+//welcomes the user to the game using their username
+alert('welcome to the game ' + playerInfo)
 //}
-
 
 //Getting a random number
 const randomNum = Math.floor(Math.random() * (20 - 1 + 1)) + 1;
@@ -20,9 +19,10 @@ alert(randomNum) //////testing//////
 
 //a counter so the program will stop when the user has guessed 3 times
 let counter = 0
+const maxTries = 3
 
 //while the number of the guesses the user inputs does not equal 3 the loop will continue
-while ((counter <= 3) || (rerun == 'yes')) {
+while (counter <= maxTries || rerun == 'yes') {
 
     //user guesses the number
     let guess = prompt('pick a number between 1 and 20 inclusive.')
