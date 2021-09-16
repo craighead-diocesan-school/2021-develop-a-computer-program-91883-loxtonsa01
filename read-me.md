@@ -44,3 +44,21 @@ The code make a secret number before alerting the given number.
   * "-1" -Failed
   * "the" -Failed
   * "21" -Failed
+
+<br>
+<br>
+
+# Replay option input checker
+
+## Expected:
+ * "yes" -Passed
+ * "no" -Passed
+
+## Boundary: 
+ * "Yes" -Failed
+ * "No" -Failed
+
+## Invalid:
+ * "456" -Failed
+ * " " -Failed
+ * "the" -Failed
