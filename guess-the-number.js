@@ -3,18 +3,18 @@ function playTheGame() {
 
 
     //function to hold the players input (name)
-                    //playerNameHolder()
-                    //function playerNameHolder() {
-    //An array to hold the users inputs
-    let playerInfo = []
+    playerNameHolder()
+    function playerNameHolder() {
+        //An array to hold the users inputs
+        let playerInfo = []
 
-    //taking the users input
-    let playerName = prompt('Create a username.')
-    //putting the input into the array
-    playerInfo.push(playerName)
-    //welcomes the user to the game using their username
-    alert('welcome to the game ' + playerInfo)
-                    //}
+        //taking the users input
+        let playerName = prompt('Create a username.')
+        //putting the input into the array
+        playerInfo.push(playerName)
+        //welcomes the user to the game using their username
+        alert('welcome to the game ' + playerInfo)
+    }
     let rerun = 'yes'
 
 
