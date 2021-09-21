@@ -1,4 +1,7 @@
+//when the user click the 'play' button it plays the functions in line with the layout of the game
 function play() {
+    //introducing the game and the goal to the user
+    alert('This is a Guess the number Game! You have 3 trys to guess the correct answer, before being asked to play again!')
     getName()
     playGame()
 }
@@ -12,12 +15,12 @@ function getName() {
 }
 
 function playGame() {
+    //so the while loop contuinues till the user changes the varible object
     let rerun = 'yes'
 
     while (rerun == 'yes') {
         //Getting a random number
         const randomNum = Math.floor(Math.random() * (20 - 1 + 1)) + 1;
-        alert(randomNum) //////testing//////
 
         //a counter so the program will stop when the user has guessed 3 times
         let counter = 0
