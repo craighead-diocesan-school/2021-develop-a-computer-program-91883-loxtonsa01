@@ -11,7 +11,6 @@ function getName() {
     alert('welcome to the game ' + playerName)
 }
 
-
 function playGame() {
     let rerun = 'yes'
 
@@ -48,12 +47,8 @@ function playGame() {
             } else {
                 alert('Error: Bad input.')
             }
-
-            //asking the user if they want to play again
-            rerun = prompt('Do you want to play again?')
         }
-
+        //asking the user if they want to play again
+        rerun = prompt('Do you want to play again?')
     }
 }
-
-
